@@ -140,7 +140,7 @@ public class Main {
             for (SeedMapEntry entry: seeds){
                 for(long i = entry.start; i < entry.start + entry.range; i++)
                 {
-                    long seed = entry.start + i;
+                    long seed = i;
                     //System.out.print("Seed: " + seed + " -> ");
                     long soil = mapLookup(seedSoilMap, seed);
                     //System.out.print("Soil: " + soil + " -> ");
